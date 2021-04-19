@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucles e iteraciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Listado de Productos
+        </h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Filtros</legend>
+        <form action="">
+           <!----> <label for="textoMarca">Categoria:</label>
+            <select name="cars" id="categoria" value='categorias'>
+         <!--  <option value="volvo">Volvo</option>--> 
+         <option value="volvo"></option>
+         <option value="ss">categoria1</option>
+ 
+
+            </select>
+            <br>
+            <label for="textoAnio">Nombre producto:</label>
+            <input id="producto" name="textoMarca" placeholder="ingrese producto" >
+            <br><br>
+        
+            <button id="botonBuscar">Buscar</button>
+        </form>
+    </fieldset>
+        <br />
+        <table>
+            <tr>
+                <th ><a href="" id="N">Codigo</a> </th>
+                <th ><a href="" id="Id">Producto</a> </th>
+                <th ><a href="" id="Marca">categoria</a> </th>
+                <th ><a href="" id="Anio">Precio</a> </th>
+                <th ><a href="" id="Modelo">Proveedor</a> </th>
+            </tr>
+            <tbody id="contenidoTabla"></tbody>
+            
+        </table>
+    </main>
+    <script src="comportamiento.js"></script>
+</body>
+
+</html>
