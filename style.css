@@ -6,6 +6,7 @@ h1 {
     position: relative;
     overflow: hidden;
     font-size: 60px;
+    cursor: pointer;
     text-align: center;
     text-decoration: none;
     color: #333; 
