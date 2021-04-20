@@ -45,7 +45,7 @@ const imprimirdato=(data)=>
                   '</td><td>'+elementOf.categoria+
                   '</td><td>'+elementOf.precio+
                   '</td><td>'+elementOf.proveedor+
-                  '</td></tr>'      
+                  '</td><td><center><i class="fas fa-pen-square"></i><i class="fas fa-trash-alt"></i></center></td></tr>'      
     });
     contenidoTabla.innerHTML=contenido
 }
